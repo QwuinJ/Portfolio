@@ -1,3 +1,8 @@
+/* Version: */
+/* Rewrite to be mobile first - DONE*/
+/* Reformat to use *{} to set font family and colours - DONE*/
+/* Look into gradients - DONE*/
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
@@ -140,21 +145,21 @@
 }
 
 #box1 {
-    background-image: url('https://qwuinj.github.io/Portfolio/Images/pexels-anna-nekrashevich-6801648.jpg');
+    background-image: url(/Websites/Portfolio/Images/pexels-anna-nekrashevich-6801648.jpg);
     background-position: top;
     background-size: cover;
     opacity: 0.8;
 }
 
 #box2{
-    background-image: url('../Images/pexels-mali-maeder-102100.jpg');
+    background-image: url(/Websites/Portfolio/Images/pexels-mali-maeder-102100.jpg);
     background-position: top;
     background-size: cover;
     opacity: 0.8;
 }
 
 #box3{
-    background-image: url('../Images/pexels-pixabay-270348.jpg');
+    background-image: url(/Websites/Portfolio/Images/pexels-pixabay-270348.jpg);
     opacity: 0.8;
     background-position: top;
     background-size: cover;
@@ -168,10 +173,10 @@
     line-height: 1.5;
     position: relative;
     z-index: 2;
-    font-size: 20pt;
+    font-size: 16pt;
     text-align: center;
     height: 100%;
-    font-weight: 200;
+    font-weight: 100;
     border-radius: 25px;
 }
 
@@ -236,11 +241,15 @@
 }
 
 .home-inner-col {
+    padding: 10px;
     flex-direction: row;
-    max-width: 200px;
-    width: 500px;
+    flex: 1;
+    /* text-align: center; */
 }
 
+#links{
+    text-align: left;
+}
 .col-heading {
     font-family: 'Josefin Sans', sans-serif;
     color: #145DA0;
@@ -253,6 +262,12 @@
     /* font-weight: 600; */
     font-size: 14pt;
     text-align: left;
+}
+
+.home-col-content {
+    font-size: 16pt;
+    /* text-align: center; */
+    line-height: 1.5;
 }
 
 .col-image {
@@ -283,14 +298,15 @@
     text-align: center;
     flex-flow: row nowrap;
     background-color: whitesmoke;
-    width: fit-content;
+    width: 80%;
 }
 
 .footer-content {
+    width: 80%;
     font-family:'Courier New', Courier, monospace;
-    flex-basis: 33%;
+    flex-basis: 80%;
     padding: 15px;
-    font-size: 14pt;
+    font-size: 12pt;
     color: #0C2D48;
 }
 
@@ -321,6 +337,10 @@ img {
     }
     .home-inner-col{
         flex-flow: row wrap;
+        text-align: center;
+    }
+    .home-col-content{
+        text-align: center;
     }
     .hero-inner {
         flex-direction: row;
