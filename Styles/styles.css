@@ -145,21 +145,21 @@
 }
 
 #box1 {
-    background-image: url(./Images/pexels-anna-nekrashevich-6801648.jpg);
+    background-image: url(../Images/pexels-anna-nekrashevich-6801648.jpg);
     background-position: top;
     background-size: cover;
     opacity: 0.8;
 }
 
 #box2{
-    background-image: url(./Images/pexels-mali-maeder-102100.jpg); 
+    background-image: url(../Images/pexels-mali-maeder-102100.jpg); 
     background-position: top;
     background-size: cover;
     opacity: 0.8;
 }
 
 #box3{
-    background-image: url(./Images/pexels-pixabay-270348.jpg);
+    background-image: url(../Images/pexels-pixabay-270348.jpg);
     opacity: 0.8;
     background-position: top;
     background-size: cover;
