@@ -275,6 +275,10 @@
     justify-self: center;
 }
 
+.links-image {
+    max-width: 70px;
+}
+
 .site-footer {
     background-color: #0C2D48;
     min-height: 20vh;
